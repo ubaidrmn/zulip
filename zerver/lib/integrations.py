@@ -581,6 +581,7 @@ WEBHOOK_INTEGRATIONS: list[WebhookIntegration] = [
     WebhookIntegration("zapier", ["meta-integration"]),
     WebhookIntegration("zendesk", ["customer-support"]),
     WebhookIntegration("zabbix", ["monitoring"]),
+    WebhookIntegration("dbt", ["misc"], display_name="DBT")
 ]
 
 INTEGRATIONS: dict[str, Integration] = {
